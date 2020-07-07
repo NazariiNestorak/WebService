@@ -1,0 +1,8 @@
+.idea/
+target/
+ApiTesting.iml
+.logs/
+.allure/
+allure-results/
+*.iml
+.gitignore
