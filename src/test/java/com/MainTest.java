@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.Map;
 
 public class MainTest {
 
@@ -23,6 +22,7 @@ public class MainTest {
         testPet = new PetModel(testPetId, testPetName, null, new ArrayList<>(), new ArrayList<>(), "Available");
         controller = new Controller();
     }
+
     @Test
     public void verifyAddNewPetTest(){
         PetModel petResponse = controller.postNewPet(testPet);
@@ -46,4 +46,5 @@ public class MainTest {
         PetModel petResponse = controller.updatePet(testPet);
         Assert.assertEquals(petResponse,testPet);
     }
+
 }

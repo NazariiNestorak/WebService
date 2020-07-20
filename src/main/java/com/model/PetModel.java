@@ -23,7 +23,6 @@ public class PetModel{
    private String status;
 
    public PetModel(){
-
    }
 
    public PetModel(Integer id, String name, CategoryModel category, List<String> photoUrls, List<TagModel> tags, String status) {
@@ -112,4 +111,5 @@ public class PetModel{
             ", status='" + status + '\'' +
             '}';
    }
+
 }

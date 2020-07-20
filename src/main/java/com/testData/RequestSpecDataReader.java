@@ -30,4 +30,5 @@ public class RequestSpecDataReader {
    public static Map<String, String> getBaseHeader() {
        return ImmutableMap.of("requestSpec.baseHeaderName", "requestSpec.baseHeaderValue");
    }
+
 }

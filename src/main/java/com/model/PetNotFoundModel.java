@@ -69,4 +69,5 @@ public class PetNotFoundModel{
             ", message='" + message + '\'' +
             '}';
    }
+
 }

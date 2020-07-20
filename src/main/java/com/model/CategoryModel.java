@@ -10,12 +10,10 @@ public class CategoryModel {
 
    @JsonProperty("name")
    private String name;
-
    @JsonProperty("id")
    private Integer id;
 
    public  CategoryModel(){ }
-
 
    public CategoryModel(String name, int id) {
       this.name = name;
@@ -59,4 +57,5 @@ public class CategoryModel {
             ", id=" + id +
             '}';
    }
+
 }

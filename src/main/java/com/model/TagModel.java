@@ -6,7 +6,6 @@ public class TagModel {
 
    @JsonProperty("name")
    private String name;
-
    @JsonProperty("id")
    private int id;
 
